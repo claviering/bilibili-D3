@@ -151,6 +151,6 @@ let playChart = LineChart(playData.slice(200), {
 });
 
 h1 = document.createElement("h1");
-h1.innerText = "记录生活的蛋黄派: 播放量";
+h1.innerText = "记录生活的蛋黄派: 视频稿件播放量";
 document.body.appendChild(h1);
 document.querySelector("body").append(playChart);
